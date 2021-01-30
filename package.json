@@ -1,0 +1,21 @@
+{
+  "name": "traductor",
+  "version": "1.0.0",
+  "description": "Traductor de español a inglés e inglés a español.",
+  "main": "src/bot.js",
+  "scripts": {
+    "dev": "nodemon src/bot.js"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "Keneth Riera",
+  "license": "ISC",
+  "dependencies": {
+    "@vitalets/google-translate-api": "^5.0.0",
+    "telegraf": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
